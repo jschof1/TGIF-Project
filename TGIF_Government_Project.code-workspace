@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../My TGIF Project 2/data"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TGIF-2"
+	}
+}

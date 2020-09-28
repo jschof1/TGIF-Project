@@ -1,0 +1,243 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+          <meta charset="utf-8">
+          <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+          <title>TGIF Project</title>
+          <meta content="" name="descriptison">
+          <meta content="" name="keywords">
+        
+          <!-- Favicons -->
+          <link href="assets/img/favicon.png" rel="icon">
+          <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        
+          <!-- Google Fonts -->
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        
+          <!-- Vendor CSS Files -->
+          <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+          <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+          <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+          <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+          <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+          <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        
+          <!-- Template Main CSS File -->
+          <link href="assets/css/style.css" rel="stylesheet">
+    
+        </head>
+        
+        <body>
+        
+          <!-- ======= Header ======= -->
+          <header id="header" class="fixed-top d-flex align-items-center">
+            <div class="container d-flex align-items-center">
+        
+              <div class="logo mr-auto">
+                <h1><a href="index.html">TGIF Project</a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+              </div>
+        
+              <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="drop-down"><a href="">Senate</a>
+                  <ul> <li><a href="senateMembers.html">Full members list</a></li>
+                    <li><a href="senEngagement.html">Engagement & Loyalty</a></li>
+                  </ul>
+                  </li>
+                  <li class="drop-down"><a href="">House of Representatives</a>
+                    <ul> <li><a href="houseMembers.html">Full members list</a></li>
+                      <li><a href="engagement.html">Engagement & Loyalty</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#contact">Contact Us</a></li>
+        
+                </ul>
+              </nav><!-- .nav-menu -->
+        
+              <div class="header-social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                
+              </div>
+        
+            </div>
+          </header><!-- End Header -->
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="container text-center text-md-left" data-aos="fade-up">
+              <h1> Attendance </h1>
+              <p class="color">The Constitution specifies that a majority of members constitutes a quorum to do business in each house. Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus, in most cases, debates continue even if a majority is not present.</p>>
+              <p class="color">The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes for the most formal matters, as a roll-call of all 435 representatives takes quite some time; normally, members vote by electronic device. In the case of a tie, the motion in question fails. In the Senate, the Vice President may (if present) cast the tiebreaking vote. </p></p>
+              <a href="#" class="btn-get-started scrollto"> find your congressman</a>
+            </div>
+          </section><!-- End Hero --><!-- End Hero -->
+        <!--Table container-->
+ <section id="what-we-do" class="what-we-do">
+            <div class="container">
+              <div class="section-title">
+                <h2>At A Glance</h2>
+                <p> Tracking attendance and partisanship</p>
+              </div>
+        <div> 
+    	
+            <table id="table" class="table table-striped table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Party</th>
+                        <th>Number of Reps</th>
+                        <th>% Voted with Party</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Republican</td>
+                        <td id="rReps"></td>
+                        <td id="repVWP"></td>
+                    </tr>
+                    <tr>
+                        <td>Democrat</td>
+                        <td id="dReps"></td>
+                        <td Id="demVWP"></td>
+                    </tr>
+                    <tr>
+                        <td>Independent</td>
+                        <td id="iReps"></td>
+                        <td id="inVWP"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row"></div>
+            <h2>Least Engaged (Bottom 10% Attendance)</h2>
+            <table id="engTable" class="table table-striped table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number of Missed Votes</th>
+                        <th>% Missed</th>
+                </tr>
+                </thead>
+                <tbody id="leastEngagedTable">
+                </tbody>
+            </table>
+
+            <h2>Most Engaged (Top 10% Attendance)</h2>
+            <table class="table table-striped table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number of Missed Votes</th>
+                        <th>% Missed</th>
+                    </tr>
+                </thead>
+                <tbody  id="mostEngagedTable">
+                </tbody>
+            </table>
+            <h2>Least Loyal (Bottom 10% of Party)</h2>
+            <table class="table table-striped table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Total Votes</th>
+                        <th>% Voted w/party</th>
+                    </tr>
+                </thead>
+                <tbody id="leastLoyal">
+                </tbody>
+            </table>
+            <h2>Most Loyal (Top 10% of Party)</h2>
+            <table class="table table-striped table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Total Votes</th>
+                        <th>% Voted w/party</th>
+                    </tr>
+                </thead>
+                <tbody id="mostLoyal">
+            </tbody>
+            </table>
+        </div> 
+       <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>TGIF</h3>
+            <p>
+              1186  Owagner Lane <br>
+              Seattle, Washington 98109<br>
+              United States <br><br>
+              <a id="contact"><strong>Phone:</strong> 206-251-4159<br>
+              <strong>Email:</strong> fblmv7dcoyu@groupbuff.com<br> </a>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"> Contact us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Attendence Checker</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Members Searcher</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Senate study</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">House of Representatives study</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Be the first to know whats happening in Congress</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>TGIF</span></strong>. All Rights Reserved
+        </div>
+
+
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+        <script src="assets/js/house.js"></script>
+        <script src="assets/js/loyalty.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
+
