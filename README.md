@@ -33,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jschof1/TGIF-Project">
-    <img src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="80" height="80">
+    <img src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="300" height="100">
   </a>
 
   <h3 align="center">TGIF Project</h3>
