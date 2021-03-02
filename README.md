@@ -33,10 +33,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/jschof1/TGIF-Project">
-    <img src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="300" height="100">
+    <img style="border-radius: 25% 10%;" src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="350" height="100">
   </a>
-
-  <h3 align="center">TGIF Project</h3>
 
   <p align="center">
     Find out more about US congress members. Get information about a congress members attendance, party loyalty and years in office in the most accessible way possible. Updated live through 
@@ -84,7 +82,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Overview][./assets/img/TGIFPortfollio.png]](https://transparentgovinfact.netlify.app/)
+ <a href="https://transparentgovinfact.netlify.app/">
+    <img style="border-radius: 25% 10%;" src="./assets/img/TGIFPortfollio.png" alt="Logo" width="350" height="100">
+  </a>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
