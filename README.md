@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jschof1/TGIF-Project">
-    <img style="border-radius: 25% 10%;" src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="350" height="100">
+    <img border-radius="25% 10%" src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="350" height="100">
   </a>
 <h3 align="center"> Transparent Government In Fact </h3>
   <p align="center">
