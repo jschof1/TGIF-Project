@@ -35,7 +35,7 @@
   <a href="https://github.com/jschof1/TGIF-Project">
     <img style="border-radius: 25% 10%;" src="./assets/img/Screenshot 2021-03-02 at 14.09.52.png" alt="Logo" width="350" height="100">
   </a>
-<h3> Transparent Government In Fact </h3>
+<h3 align="center"> Transparent Government In Fact </h3>
   <p align="center">
     Find out more about US congress members. Get information about a congress members attendance, party loyalty and years in office in the most accessible way possible. Updated live through 
     <br />
