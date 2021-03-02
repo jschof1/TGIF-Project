@@ -81,11 +81,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<div stlye="align: center-align">
  <a href="https://transparentgovinfact.netlify.app/">
-    <img style="border-radius: 25% 10%;" src="./assets/img/TGIFPortfollio.png" alt="Logo" width="350" height="100">
+    <img style="border-radius: 25% 10%;" src="./assets/img/TGIFPortfollio.png" alt="Screens" width="600" height="400">
   </a>
-
+</div>
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `jschof1`, `TGIF-Project`, `twitter_handle`, `jackschofield1@gmail.com`, `TGIF Project`, `find out more about US members congress. Get information about a congress members attendance, party loyalty and years in office in the most accessible way possible.`
