@@ -30,7 +30,7 @@
   </a>
 <h3 align="center"> Transparent Government In Fact </h3>
   <p align="center">
-    Find out more about US congress members. Get information about a congress members attendance, party loyalty and years in office in the most accessible way possible. Updated live through [ProPublica API](https://projects.propublica.org/api-docs/congress-api/)
+    Find out more about US congress members. Get information about a congress members attendance, party loyalty and years in office in the most accessible way possible. Updated live through <a href="https://projects.propublica.org/api-docs/congress-api/"> ProPublica API </a>
     <br />
     <a href="https://github.com/jschof1/TGIF-Project"><strong>Explore the docs »</strong></a>
     <br />
